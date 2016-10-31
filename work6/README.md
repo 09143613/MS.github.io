@@ -1,4 +1,4 @@
- ###用户test1可以查看的页面（Sys_menu）
+###用户test1可以查看的页面（Sys_menu）
 ![test1](test1操作.png)
 ###结果
 ![test1](text1结果.png)
@@ -17,6 +17,8 @@
 
 2、根据人员编号UserID查找改人员所对应的角色集合RoleIDs
 
-3、权限表、页面表、按钮表做连接 
+3、权限表、页面表、按钮表做连接查询菜单表的ID=S1的PrivilegeAccessKey，menuname=订单的MenuNo的集合    
+    
+4、在按钮表中查询操作名称  
 
 
