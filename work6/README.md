@@ -7,7 +7,7 @@
 
 2、根据人员编号UserID查找改人员所对应的角色集合RoleIDs
 
-3、 在privilege表中查询 While表为role，权限类别为menu，PrivilegeMasterKey为roleid，权限为permit 
+3、 在权限表中查询 While表为Role，权限类别为Menu，PrivilegeMasterKey为RoleID，权限为Permit的数据
 ###订单(order)页面中的操作权限(sys_button）
 ![order](order操作.png)
 ###结果
@@ -17,5 +17,8 @@
 
 2、根据人员编号UserID查找改人员所对应的角色集合RoleIDs
 
+3、权限表、页面表、按钮表做连接  While menu表的id=S1的PrivilegeAccessKey，menuname=订单    
+   从上述结果中查询出所有的menuno  
+   在button表中查询操作名称 
 
 
