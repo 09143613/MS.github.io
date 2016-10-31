@@ -17,8 +17,6 @@
 
 2、根据人员编号UserID查找改人员所对应的角色集合RoleIDs
 
-3、权限表、页面表、按钮表做连接  While menu表的id=S1的PrivilegeAccessKey，menuname=订单    
-   从上述结果中查询出所有的menuno  
-   在button表中查询操作名称 
+3、权限表、页面表、按钮表做连接 
 
 
